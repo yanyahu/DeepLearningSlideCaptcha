@@ -19,6 +19,8 @@ git clone https://github.com/Python3WebSpider/DeepLearningSlideCaptcha.git
 GIT_LFS_SKIP_SMUDGE=1 git clone https://github.com/Python3WebSpider/DeepLearningSlideCaptcha.git
 ```
 
+> 注意：这里我的 Git LFS 流量超了，无法下载了，可以手动下载模型放到 checkpoints 文件夹。网盘：链接:https://pan.baidu.com/s/1_do6DDEzViYFq_JASSl5Bg  密码:5bni
+
 ## 数据准备
 
 使用 LabelImg 工具标注自行标注一批数据，大约 200 张以上即可训练出不错的效果。
@@ -72,6 +74,8 @@ bash train.sh
 ```
 git lfs pull
 ```
+
+> 注意：这里我的 Git LFS 流量超了，无法下载了，可以手动下载模型放到 checkpoints 文件夹。网盘：链接:https://pan.baidu.com/s/1_do6DDEzViYFq_JASSl5Bg  密码:5bni
 
 此时 checkpoints 文件夹会生成训练好的 pth 文件。
 
